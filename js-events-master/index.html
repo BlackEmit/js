@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+   
+    <p>Анатолий, введите свое имя (Давайте по хорошему, без цифр)</p>
+    <input type="text" id="input-name"><br><br>
+
+    <button class="modal-open">Show modal</button>
+    <div class="modal">
+        <div class="modal-content">
+            <h3>Анатолий, я модальное окно</h3>
+            <button class="modal-close">Close modal</button>
+        </div>
+    </div>
+
+
+
+    <div class="traffic-wrap">
+        <section class="traffic_ligth">
+            <div class="light red"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+        </section>
+        <button id="btn-next">Next</button>
+    </div>
+
+    <ol class="books_list">
+        <li class="books_list-item">CLR via C#. Программирование на платформе Microsoft .NET Framework 4.5 на языке C#. 4-е изд.
+            Автор: Дж. Рихтер</li>
+        <li class="books_list-item">Язык программирования C#. Классика Computers Science. 4-е изд.
+            Авторы: А. Хейлсберг, М. Торгерсен, С. Вилтамут, П. Голд 
+            </li>
+        <li class="books_list-item">
+            Приложения для Windows 8 на C# и XAML Автор: Дж. Ликнесс 
+        </li>
+        <li class="books_list-item">Секс, наркотики, HTML. Современные реалии веб разработки. 2-е изд. Автор: Марченко Анатолий</li>
+        <li class="books_list-item">Изучаем C#. 3-е изд. Авторы: Э. Стиллмен, Дж. Грин </li>
+    </ol>
+
+    <div class="btn-wrap">
+        <button class="btn-hovered">Наведи</button>
+        <div class="btn-tooltip btn-tooltip--up">Анатолий, я просто конопка</div>
+    </div>
+
+    <div class="football">
+        <img class="football-area" src="./images/fb.jpg" alt="">
+        <img class="football-ball" src="./images/ball.png" alt="">
+    </div>
+
+    <script src="./events.js"></script>
+</body>
+
+</html>
